@@ -28,7 +28,7 @@ app.post("/", function(req, res){
 
     //Without using HTML this is the code for weather app 
 const quary = req.body.city;
-const appkey = "8e31ca02669b50350f53da3e3e5377f2";
+const appkey = "8e31ca0e3e5377f2";
 const unit = "metric";
 const url = "https://api.openweathermap.org/data/2.5/weather?q="+quary+"&appid=" + appkey + "&units="+unit;
 
